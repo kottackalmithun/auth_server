@@ -12,7 +12,7 @@ const cors = require('cors');
 
 
 //DB setup
-mongoose.connect('mongodb://127.0.0.1:27017/auth', function(err){
+mongoose.connect('mongodb://mithun:mithun@ds161860.mlab.com:61860/auth', function(err){
 	if(err){console.log('Connection error'+ err);}
 	else{console.log('DB Connected');}
 });
